@@ -12,6 +12,7 @@ const createWindow = () => {
     width: 350,
     height: 400,
     resizable: false,
+    icon: __dirname + '/img/icon.png',
     backgroundColor: 'lightslategray',
     autoHideMenuBar: true
 });
